@@ -9,7 +9,7 @@ data-dir: ""
 extra-source-files: ""
  
 executable MealPlanner
-    build-depends: QuickCheck -any, base -any
+    build-depends: QuickCheck -any, base -any, dimensional -any
     main-is: Main.hs
     buildable: True
     hs-source-dirs: src
