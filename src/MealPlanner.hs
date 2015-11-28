@@ -21,8 +21,14 @@
 -----------------------------------------------------------------------------
 
 module MealPlanner (
-
+Name,
+Section,
+Ingredient
 ) where
+
+import Numeric.Units.Dimensional.DK.NonSI
+import Numeric.Units.Dimensional.DK.Prelude
+import qualified Prelude
 
 type Name = String
 type Amount = Float

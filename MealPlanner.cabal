@@ -4,16 +4,16 @@ cabal-version: >=1.2
 build-type: Simple
 license: AllRightsReserved
 license-file: ""
-description:  
+description:
 data-dir: ""
 extra-source-files: ""
- 
+
 executable MealPlanner
-    build-depends: QuickCheck -any, base -any, dimensional -any
+    build-depends: QuickCheck -any, base -any, dimensional-dk -any, cassava -any, bytestring -any
     main-is: Main.hs
     buildable: True
     hs-source-dirs: src
- 
+
 test-suite test-MealPlanner
     build-depends: QuickCheck -any, base -any
     type: exitcode-stdio-1.0
