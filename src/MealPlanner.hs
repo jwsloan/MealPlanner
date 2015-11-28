@@ -21,8 +21,11 @@
 -----------------------------------------------------------------------------
 
 module MealPlanner (
-
+Name,
+Section,
+Ingredient
 ) where
+
 
 type Name = String
 type Amount = Float
